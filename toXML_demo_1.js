@@ -128,9 +128,9 @@ MyApp.util.use = function() {
         }
     };
 
-	console.log("usage 2: using load and unload");
+    console.log("usage 2: using load and unload");
     MyApp.util.toXML.load();
-	console.log(input_1);
+    console.log(input_1);
     console.log(input_1.toXML());
     MyApp.util.toXML.unload();
     console.log("");
